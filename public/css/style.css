@@ -1,0 +1,75 @@
+.main {
+  width: 100%;
+  height: 100vh;
+}
+body {
+  background: #f8f8f8;
+}
+.common {
+  max-width: 400px;
+  width: 100%;
+}
+.common .form-control {
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+.common .form-label {
+  font-weight: 500;
+  color: #181818;
+  font-size: 1rem;
+}
+
+.btn-form {
+  width: 100%;
+  background: #ea454c;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.common p {
+  font-weight: 500;
+  font-size: 14px;
+}
+.todo {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0px auto;
+}
+.todo label {
+  font-weight: 500;
+  font-size: 1rem;
+}
+.todo .btn-todo {
+  background: #ea454c;
+  color: white;
+}
+.btn-nav {
+  background: #ea454c;
+  color: white;
+  padding: 10px 30px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.btn-delete {
+  background: crimson;
+  color: white;
+  font-weight: 500;
+}
+.btn-edit {
+  background: #4caf50;
+  color: white;
+  font-weight: 500;
+}
+.btn-status {
+  background: #1ecd97;
+  color: white;
+  font-weight: 500;
+}

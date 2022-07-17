@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="container d-flex align-items-center justify-content-center main">
+        <form action="/signup" method="post" class="mx-auto common">
+            <div class="text-center my-4">
+                <h1>Sign Up</h1>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Name</label>
+                <input name="name" type="text" class="form-control p-2" />
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input name="email" type="email" class="form-control p-2" aria-describedby="emailHelp" />
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input name="password" type="password" class="form-control p-2" id="exampleInputPassword1" />
+            </div>
+            <button type="submit" class="btn-form p-2">Submit</button>
+            <p style="color: #595959" class="text-center mt-2">
+                have an account?
+                <a style="color: #ea454c" href="/login">Please Log in</a>
+            </p>
+        </form>
+    </div>
+</body>
+
+</html>
