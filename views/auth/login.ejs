@@ -11,6 +11,7 @@
 </head>
 
 <body>
+
     <div class="container d-flex align-items-center justify-content-center main">
         <form class="mx-auto common" method="post" action="/login">
             <div class="text-center my-4">
@@ -23,7 +24,7 @@
                 <%if(err && emailError){%>
                     value="<%= email %>"
                         <%}%>
-                            aria-describedby="emailHelp" />
+                            aria-describedby="emailHelp" required/>
                             <% if(err && emailError){%>
                                 <p class="text-danger font-medium mt-1">
                                     <%= err %>
@@ -32,7 +33,7 @@
             </div>
             <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label">Password</label>
-                <input name="password" type="password" class="form-control p-2" id="exampleInputPassword1" />
+                <input name="password" type="password" class="form-control p-2" id="exampleInputPassword1" required />
                 <% if(err && passwordError){%>
                     <p class="text-danger font-medium mt-1">
                         <%= err %>
@@ -45,6 +46,16 @@
                 <a style="color: #ea454c" href="/signup">Sign up fo free!</a>
             </p>
         </form>
+    </div>
+    <div>
+        <div class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="d-flex">
+                <div class="toast-body">
+                    Hello, world! This is a toast message.
+                </div>
+                <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+        </div>
     </div>
 </body>
 

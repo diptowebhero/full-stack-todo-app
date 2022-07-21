@@ -1,5 +1,6 @@
 const trs = document.querySelectorAll("tbody tr");
 const form = document.getElementById("form");
+const btnSignUp = document.getElementById("btn-sign-up");
 const submit = document.getElementById("submit");
 [...trs].forEach((tr) => {
   tr.addEventListener("click", function (e) {

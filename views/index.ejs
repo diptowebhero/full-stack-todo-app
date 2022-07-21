@@ -30,12 +30,13 @@
             class="d-flex align-items-center justify-content-center mt-5">
             <div class="mx-2">
                 <label for="exampleInputEmail1" class="form-label">Task Name</label>
-                <input value="" name="taskName" type="text" class="form-control py-2" aria-describedby="emailHelp" />
+                <input value="" name="taskName" type="text" class="form-control py-2" aria-describedby="emailHelp"
+                    required />
             </div>
             <div class="">
                 <label for="exampleInputEmail1" class="form-label">Priority</label>
-                <select name="priority" class="form-select py-2" aria-label="Default select example">
-                    <option selected>Select Priority</option>
+                <select name="priority" class="form-select py-2" aria-label="Default select example" required>
+                    <option selected disabled>Select Priority</option>
                     <option value="high">High</option>
                     <option value="medium">Medium</option>
                     <option value="low">Low</option>
@@ -43,7 +44,7 @@
             </div>
             <div class="mx-2">
                 <label for="exampleInputEmail1" class="form-label">Date</label>
-                <input name="date" type="date" class="form-control py-2" aria-describedby="emailHelp" />
+                <input name="date" type="date" class="form-control py-2" aria-describedby="emailHelp" required />
             </div>
             <input type="hidden">
             <button id="submit" style="margin-top: 31px; font-weight: 500" class="btn btn-todo py-2 px-4">
